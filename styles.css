@@ -17,11 +17,13 @@ body {
 
 header {
     background: var(--charcoal);
-    padding: 20px;
+    background-color: var(--charcoal);
+    padding: 10px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     box-shadow: 0 0 10px var(--neon-green);
+    height: 100px;
 }
 
 .logo {
@@ -77,7 +79,7 @@ p {
     margin: 20px auto;
 }
 
-button {
+a.button {
     background: var(--neon-green);
     color: var(--dark-bg);
     border: none;
@@ -89,7 +91,7 @@ button {
     transition: all 0.3s ease-in-out;
 }
 
-button:hover {
+a.button:hover {
     background: white;
     color: var(--dark-bg);
     transform: scale(1.05);
@@ -112,4 +114,24 @@ footer {
     text-align: center;
     padding: 15px 0;
     box-shadow: 0 0 10px var(--neon-green);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Adjust height as needed */
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 300px;
+    width: auto;
+    margin-top: 60px;
 }
